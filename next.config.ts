@@ -5,13 +5,13 @@ const nextConfig: NextConfig = {
 		remotePatterns: [
 			{
 				protocol: "https",
-				hostname: "placehold.co",
+				hostname: "res.cloudinary.com",
 				port: "",
 				pathname: "/**",
 			},
 			{
 				protocol: "https",
-				hostname: "equivalenza.pt",
+				hostname: "placehold.co",
 				port: "",
 				pathname: "/**",
 			},

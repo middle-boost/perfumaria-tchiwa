@@ -1,4 +1,3 @@
-// Todo: add actual data/images
 // Todo: add a link of instagram in the footer
 import Link from "next/link";
 import Image from "next/image";
@@ -23,9 +22,9 @@ export default async function Home() {
 						<Image
 							src={item.image}
 							alt={item.name}
-							width={400}
+							width={300}
 							height={400}
-							className="w-full h-auto object-cover rounded-md"
+							className="w-full h-[530px] lg:h-[400px] object-cover rounded-md"
 						/>
 
 						{!item.inStock && (
